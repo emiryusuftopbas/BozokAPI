@@ -1,0 +1,141 @@
+img{
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+
+ul.fotoliste {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    ul.fotoliste li {
+        margin: 0;
+        padding: 0;
+        display: table-cell;
+        float: left;
+        margin: 1%;
+        width: 18%;
+        text-align: center;
+    }
+
+    ul.fotoliste img {
+        height: 120px;
+        max-width: 100%;
+    }
+    .haber {
+    }
+    
+        .haber h2 {
+            font-size: 26px;
+            font-weight: bold;
+            border-bottom: 1px dashed #CCC;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+    
+        .haber h3 {
+            font-size: 18px;
+            font-weight: normal;
+            font-style: italic;
+            padding-bottom: 10px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+    
+        .haber img.resim {
+            width: calc(100% - 8px);
+            padding: 2px;
+            border: 1px solid #CCC;
+            margin-top: 8px;
+            margin-bottom: 10px;
+        }
+    
+        .haber p {
+            padding-top: 0;
+            line-height: 150%
+        }
+    
+        .haber span.tarih {
+            font-size: 14px;
+            font-style: italic;
+            color: #666;
+            display: block;
+            margin-top: 15px;
+        }
+    
+        .haber iframe {
+            width: 100%;
+        }
+        .etksol {
+            float: left;
+            width: calc(100% - 130px);
+            margin-right: 10px;
+            font-size: 13px
+        }
+        
+        .etksag {
+            float: right;
+            width: 120px;
+            text-align: right
+        }
+        
+        .etksol p {
+            margin: 5px 0;
+            padding: 5px;
+        }
+        
+        .etksol h2 {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #999;
+            font-size: 24px
+        }
+        
+        .etkk1 {
+            float: left;
+            width: 130px;
+            margin-right: 10px;
+            background: #f2f2f2;
+            padding: 5px 0;
+            display: block;
+            margin-bottom: 10px;
+            font-weight: normal;
+            text-indent: 28px;
+            background-image: url(../img/takvim.png);
+            background-position: 5px center;
+            background-repeat: no-repeat;
+        }
+        
+        .etkk2 {
+            float: left;
+            width: calc(100% - 150px);
+            background: #f6f6f6;
+            padding: 5px 0;
+            display: block;
+            margin-bottom: 10px;
+            text-indent: 8px
+        }
+        
+        .konum {
+            background-image: url(../img/konum.png);
+            background-repeat: no-repeat
+        }
+        
+        .etktum {
+            float: none;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .etksag img {
+            max-width: 100%;
+            height: 110px;
+            transition: all ease 1s;
+            filter: grayscale(100%);
+        }
+        
+            .etksag img:hover {
+                filter: grayscale(0%);
+            }
