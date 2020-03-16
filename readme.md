@@ -15,7 +15,7 @@ You need php to run this project.
 Clone this Project 
 
 ``` 
-git clone https://github.com/emiryusuftopbas/BozokApi.git
+git clone https://github.com/emiryusuftopbas/BozokAPI.git
 ```
 
 You are ready to run BozokAPI.
@@ -34,7 +34,7 @@ You are ready to run BozokAPI.
 | GET            | /yemekler/bugun    | Bugünün Menüsü     |
 | GET            | /yemekler/yarın    | Yarının Menüsü     |
 
-![BozokAPI](https://i.ibb.co/YDMLBzy/bozokapi.png)
+![BozokAPI](https://user-images.githubusercontent.com/58172827/76759407-a8a27680-679c-11ea-93b3-5ed99d4187d2.png)
 
 
 
