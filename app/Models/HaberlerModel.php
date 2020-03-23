@@ -22,7 +22,7 @@ class HaberlerModel extends Model {
 	        $parsed1 = explode("/basin/haber/",$haberDetaylar[$j]);
 	        $parsed2 = explode('.aspx',$parsed1[1]);
 
-	        $haberIcerikler[$j] ='http://localhost'. $SitePath.'/haber/'.$parsed2[0];
+	        $haberIcerikler[$j] = 'http://'.SiteHost.SitePath.'/haber/'.$parsed2[0];
 	    }
 
 	    $haberler = [

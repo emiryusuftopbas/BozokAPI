@@ -19,7 +19,7 @@ class EtkinliklerModel extends Model {
 	        $parsed1 = explode("/etkinlik/",$etkinlikDetaylar[$j]);
 	       	$parsed2 = explode('.aspx',$parsed1[1]);
 
-	        $etkinlikIcerikler[$j] ='http://localhost'.  $SitePath.'/etkinlik/'.$parsed2[0]; 	
+	        $etkinlikIcerikler[$j] = 'http://'.SiteHost.SitePath.'/etkinlik/'.$parsed2[0]; 	
 	    }
 
 	    $etkinlikler =  array(

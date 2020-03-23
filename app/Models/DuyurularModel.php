@@ -34,8 +34,7 @@ class DuyurularModel extends Model {
 	        $parsed1 = explode("/duyuru/",$duyuruDetaylar[$j]);
 	        $parsed2 = explode('.aspx',$parsed1[1]);
 
-	        // internete atinca kaldir
-	        $duyuruIcerikler[$j] = 'http://localhost' . $SitePath.'/duyuru/'.$parsed2[0];
+	        $duyuruIcerikler[$j] = 'http://'.SiteHost.SitePath.'/duyuru/'.$parsed2[0];
     	}
     	$duyurular =  array(
     		'duyuru_detay' => $duyuruDetaylar, 
